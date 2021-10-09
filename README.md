@@ -5,6 +5,15 @@ Create human readable hash strings composed of 10 different words based on a md5
 ## Installation
 
 ```sh
+curl -L https://raw.githubusercontent.com/olastor/dicesum/main/dicesum -o /usr/local/bin/dicesum && chmod +x /usr/local/bin/dicesum
 ```
 
 ## Example
+
+```
+echo -n "test" > test.txt
+dicesum test.txt
+armrest-washhouse-denture-blank-devoutly-predefine-pony-campus-constrict-ranking	test.txt
+```
+
+You should see the exact same combination of strings when executing this.
